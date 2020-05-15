@@ -12,8 +12,8 @@ steps:
 
 - task: SonarCloudPrepare@1
   inputs:
-    SonarCloud: 'eider_sonar_cloud'
-    organization: 'eidermauricio'
+    SonarCloud: 'calculator2'
+    organization: '19dc366175d22a9587bf88598ab962bbaa5f3651'
     scannerMode: 'Other'
 
 - task: Maven@3
